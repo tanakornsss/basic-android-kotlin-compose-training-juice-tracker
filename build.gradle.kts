@@ -16,16 +16,16 @@
 
 buildscript {
     extra.apply {
-        set("nav_version", "2.8.5")
-        set("room_version", "2.6.1")
-        set("arch_lifecycle_version", "2.8.7")
+        set("nav_version", "2.9.7")
+        set("room_version", "2.8.4")
+        set("arch_lifecycle_version", "2.10.0")
     }
 }
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    id("com.android.application") version "8.8.0" apply false
-    id("com.android.library") version "8.8.0" apply false
-    id("org.jetbrains.kotlin.android") version "2.1.0" apply false
-    id("androidx.navigation.safeargs") version "2.8.5" apply false
-    id("org.jetbrains.kotlin.plugin.compose") version "2.1.0" apply false
+    id("com.android.application") version "9.0.1" apply false
+    id("com.android.library") version "9.0.1" apply false
+    id("org.jetbrains.kotlin.android") version "2.3.10" apply false
+    id("androidx.navigation.safeargs") version "2.9.7" apply false
+    id("org.jetbrains.kotlin.plugin.compose") version "2.3.10" apply false
 }
